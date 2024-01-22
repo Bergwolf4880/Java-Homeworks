@@ -34,7 +34,7 @@ public class HelperClass {
 
     public static Set<Person> twoListsOneSet(List<Person> list1, List<Person> list2) {
         Set<Person> temp = new HashSet<>(list1);
-        temp.addAll(list2);
+        temp.retainAll(list2);
         return temp;
     }
 
