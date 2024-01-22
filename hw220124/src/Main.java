@@ -16,10 +16,10 @@ public class Main {
                 new Person("Frodo")));
 
         List<Person> list2 = new ArrayList<>(List.of(
-                new Person("Gollum"),
+                new Person("Frodo"),
                 new Person("Aragorn"),
                 new Person("Legolas"),
-                new Person("Gimli"),
+                new Person("Sam"),
                 new Person("Sauron"),
                 new Person("Boromir")));
 
