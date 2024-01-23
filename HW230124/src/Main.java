@@ -19,7 +19,7 @@ public class Main {
         List<String> list = new ArrayList<>(
                 List.of("Bob", "Bob", "Bob", "Bill"));
 
-        Map<String, Integer> keysAmountToValue = gpt(list);
+        Map<String, Integer> keysAmountToValue =stringAmountValue(list);
         System.out.println(keysAmountToValue);
     }
 
@@ -32,7 +32,7 @@ public class Main {
         Map<String, Integer> temp = new HashMap<>();
 
         for (String str : list) {
-            temp.put(str, temp.getOrDefault(str,0) + 1);
+            temp.put(str, temp.getOrDefault(str,0)+1);
         }
         return temp;
     }
